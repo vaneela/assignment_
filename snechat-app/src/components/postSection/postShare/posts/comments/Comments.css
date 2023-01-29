@@ -1,0 +1,14 @@
+.commentor-details{
+    display: flex;
+    gap: 10px;
+}
+.commentor-details .names{
+    display: flex;
+    flex-direction: column;
+}
+.author-tag>span{
+    background-color: #6a6aff;
+    border-radius: 5px;
+    padding: 0px 5px 2px 5px;
+    color: white;
+}

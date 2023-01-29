@@ -1,0 +1,14 @@
+.rightSection{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+}
+
+.share-btn{
+    width: max-content;
+}

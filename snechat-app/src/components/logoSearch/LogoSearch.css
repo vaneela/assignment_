@@ -1,0 +1,30 @@
+
+.LogoSearch{
+    display: flex;
+    gap: 0.75rem;
+}
+
+.twitterIcon{
+    color: rgb(8, 180, 8);
+}
+
+.searchBar{
+    display: flex;
+    background-color: var(--inputColor);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.searchIcon{
+    display: flex;
+    background:linear-gradient(238deg,green,rgb(20, 207, 20));
+    color: white;
+}
+.searchIcon:hover{
+    background:linear-gradient(238deg,rgb(20, 207, 20),green);
+    cursor: pointer;
+}
+
+.searchBar>input:focus{
+    outline: none;
+}

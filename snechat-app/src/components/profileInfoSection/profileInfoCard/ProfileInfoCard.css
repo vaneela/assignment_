@@ -1,0 +1,37 @@
+.profileInfoCard{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-color: var(--cardColor);
+    padding: 16px;
+    border-radius: 16px;
+    width: 100%;
+    height: 300px;
+    justify-content: space-around;
+}
+
+.profileInfoHead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profileInfoHead>svg{
+    cursor: pointer;
+}
+
+.logout-btn{
+    width: 80px;
+    height: 20px;
+    align-self: center;
+}
+
+.share-btn{
+    height: 30px;
+    width: 50%;
+    align-self: center;
+}
+.profileInfos>span:nth-of-type(1){
+    width: 50%;
+}
+
